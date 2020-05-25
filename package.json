@@ -6,7 +6,8 @@
   "scripts": {
     "test": "jest",
     "cli": "node whispersync-client/src/cli.js",
-    "server": "node content-server/src/server.js"
+    "server": "node content-server/src/server.js",
+    "server:watch": "nodemon content-server/src/server.js"
   },
   "dependencies": {
     "@cozy/cli-tree": "^0.0.1",

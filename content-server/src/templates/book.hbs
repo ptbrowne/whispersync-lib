@@ -1,0 +1,20 @@
+{{#extend 'layout'}}
+    {{#content 'title'}}{{ book.title }}{{/content}}
+    {{#content 'body'}}
+        <h2>{{ book.title }}</h2>
+        <div class='authors'>
+            {{#each book.authors }}{{ this }} {{/each}}
+        </div>
+        <div class='annotations'>
+            {{#if book.sidecar.annotations.length}}
+                {{#each book.sidecar.annotations}}
+                    {{# if this.text }}
+                        <blockquote>{{ this.text }}</blockquote>
+                    {{/if}}
+                {{/each}}
+                {{ else }}
+            {{/if}}
+        </div>
+    {{/content}}
+{{/extend}}
+

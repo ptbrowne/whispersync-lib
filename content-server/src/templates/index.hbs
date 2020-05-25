@@ -1,0 +1,16 @@
+{{#extend 'layout'}}
+    {{#content 'body'}}
+        <h2>Books</h2>
+        <ul>
+            {{#each books }}
+                <li>
+                    <a href='/books/{{ this.asin }}'>
+                        {{ this.title }}
+                    </a><br/>
+                    {{#each this.authors}}{{this}}{{/each}}
+                </li>
+            {{/each}}
+        </ul>
+    {{/content}}
+{{/extend}}
+
