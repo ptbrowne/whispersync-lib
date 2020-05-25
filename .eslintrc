@@ -1,0 +1,12 @@
+{
+  "env": { "jasmine": true },
+  "extends": ["cozy-app/react"],
+  "globals": {
+    "jest": true
+  },
+  "settings": {
+    "react": {
+      "version": "16.2"
+    }
+  }
+}

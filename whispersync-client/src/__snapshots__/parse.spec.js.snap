@@ -1,0 +1,132 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`parse metadata response should parse books 1`] = `
+Object {
+  "booksToAdd": Array [
+    Book {
+      "asin": "B003ODIZL6",
+      "authors": Array [
+        "McKean, Erin",
+      ],
+      "publicationDate": "2010-04-01T00:00:00+0000",
+      "publishers": Array [
+        "Oxford University Press",
+      ],
+      "title": "The New Oxford American Dictionary",
+    },
+    Book {
+      "asin": "B00KAJJRIW",
+      "authors": Array [
+        "Van Dale",
+      ],
+      "publicationDate": null,
+      "publishers": Array [
+        "Amazon Dictionaries",
+      ],
+      "title": "Groot woordenboek hedendaags Nederlands (Dutch Dictionary) (Dutch Edition)",
+    },
+    Book {
+      "asin": "B00A8QWA7W",
+      "authors": Array [
+        "Priberam",
+      ],
+      "publicationDate": null,
+      "publishers": Array [],
+      "title": "Dicionário Priberam de Inglês-Português",
+    },
+    Book {
+      "asin": "B004GHNIRK",
+      "authors": Array [
+        "Hugo, Victor",
+      ],
+      "publicationDate": "2010-12-16T00:00:00+0000",
+      "publishers": Array [
+        "Public Domain Books",
+      ],
+      "title": "Les Misérables (English language)",
+    },
+    Book {
+      "asin": "B076V21W3S",
+      "authors": Array [
+        "Oxford",
+      ],
+      "publicationDate": null,
+      "publishers": Array [
+        "Amazon Dictionaries",
+      ],
+      "title": "Oxford Arabic to English dictionary (Arabic Edition)",
+    },
+    Book {
+      "asin": "B00KAJJRI2",
+      "authors": Array [
+        "Van Dale",
+      ],
+      "publicationDate": null,
+      "publishers": Array [
+        "Amazon Dictionaries",
+      ],
+      "title": "Groot woordenboek Nederlands-Engels (Dutch-English Dictionary) (Dutch Edition)",
+    },
+    Book {
+      "asin": "B076J26GW2",
+      "authors": Array [
+        "Oxford",
+      ],
+      "publicationDate": null,
+      "publishers": Array [
+        "Amazon Dictionaries",
+      ],
+      "title": "Oxford English to Arabic dictionary",
+    },
+    Book {
+      "asin": "B076VBJ9FG",
+      "authors": Array [
+        "Oxford",
+      ],
+      "publicationDate": null,
+      "publishers": Array [
+        "Amazon Dictionaries",
+      ],
+      "title": "Al-Munjid Arabic dictionary (Arabic Edition)",
+    },
+    Book {
+      "asin": "B00DQB1G3K",
+      "authors": Array [
+        "Shogakukan",
+      ],
+      "publicationDate": null,
+      "publishers": Array [
+        "Amazon Dictionaries",
+      ],
+      "title": "Shogakukan Progressive Japanese-English Dictionary (プログレッシブ和英中辞典第３版) (Japanese Edition)",
+    },
+    Book {
+      "asin": "B00KAJJRMI",
+      "authors": Array [
+        "Van Dale",
+      ],
+      "publicationDate": null,
+      "publishers": Array [
+        "Amazon Dictionaries",
+      ],
+      "title": "Groot woordenboek Engels-Nederlands (English-Dutch Dictionary)",
+    },
+    Book {
+      "asin": "B00A8QWA8Q",
+      "authors": Array [
+        "Priberam",
+      ],
+      "publicationDate": null,
+      "publishers": Array [],
+      "title": "Priberam's Portuguese-English Dictionary (Portuguese Edition)",
+    },
+  ],
+  "booksToRemove": Array [],
+  "syncTime": "2020-05-21T09:24:19+0000",
+  "syncType": "full",
+}
+`;
+
+exports[`register metadata response should parse adp token and private key 1`] = `"{enc:RO6CkSjmVSIZJZNJv17YI1nhA0W5QrW3DiJ0SJtNelUX/XXu8VN5KBcMe61E3EaY6YHUJFE8GYjRQSd2npAhRLox5Thq480f7opOHGlXhxvgPUiNiOIjLhJvV4yWby2nS8yrBK2fM2e7koVQTgRhgO+Q8kS2S/Vwew00E/BtnbQadRJRXzf9nzaeoqlU5L+renYnpNn1zrnOWpK9iYlNaAfIavVTy+Msy9bm12ttk6conNnvEhZWqNj1GcCL0BkuSwgQepwHgIc+qlsQtMKmRjXEczZ3ly3S0VuXhMeymJ1K+ctxhHRN4FgUynUAG85l8VF3AXzGgel+0i/E5MeJsqu0j4vGD/scTHv9NVYWzk8XQYAL0A9KbUHfCM3yixLLr1eJ8NCrw6Xaz3hthgpB/A6BZwEzu3V+RjYHDL+MIi1X8+0V5Dha/QLvoWWjooZr7WO447O3SQBgPGYQnKmq4jnyixzTtEN7HSduFy6p00od0pmdxCrR0op65CQT5OJvgdjgPLLBmDvWvxrh1OjYgUXLbCGc8TtNI6+I6h3crz7K9IEytztwNfSDKYOvTP3pZN2MknRMIZpcR4xNIN1992aw/kpE2TQl8gG08bXf5boJToJrs+e85IdsSX4u8/I/7GnRb2+lsvmOOVXzIiTWI/fONqUWmHHzuQcdQtLbowsvAp76gJlajjsRHG9O19/97fO4QG79BQTJMeF5dPqtGpCnsOOyYzvvz7BvaFG5zWBAkzUV1XH2kAJXJ9ePPsbbhhH13IeBItmWsZKUOyDe6MPVCz6czzZxIDVCSVmUESNP4f5Q9vup4DE8sUWnAvlLlrna4VfyUWdBgym4qIOuCJfTUipVj/yCIs2cX6BG638Gf+56WXRXMjFHLw0M4nkRI/iyopEWUi8oz8HLgmk80GUTsOCWDe+UZSfY2xM7AOdA4jGwFmGAWvJayYJIIak3AZhK7K1PWhGhBrbGhmI37Us3VPdrzWIrVfNqATwXYg9rhrobQvl0nO/HoUc6yQLRp/H2f/RXdpFiE2U5YmcwtwoajcJcaP+LrKN0nEizXS+wDJA4hEP764DSBz5TzIDP}{key:hfc6hJP0yu+K4rUrBDNHxEMnJ4caIap/DxaJhSv4a6Oy/l1WKYd6lfhjvAFG5+8Xce0tfYLFKBZzHE1GWz1BE3VARCiSI03Fkt4F9ZDcSohe/XNWokC/kuAw1L3JRAN/kZ8hk+wt7LKAmWS35eIemKQ1Fh7AvlPc0i+rd/JTY1eKMbQvwxiwDAtnX56boOI4e+cpmAYdwYR1aLRypkEEVfUaQnGqQ8mdsrBveWTNeoPBr7oY/oXdGa3X4ceZqTEQCUyWkUjA6iN/g07oTaJ0RtbkINieIxD+yfDTdY/qlyX2LNJfVtuKhVFOjC3eogiYu6NF/IphIXmC+UM40hwVbQ==}{iv:rB7gMOt3y40wwbJanaHILQ==}{name:QURQVG9rZW5FbmNyeXB0aW9uS2V5}{serial:Mg==}"`;
+
+exports[`register metadata response should parse adp token and private key 2`] = `"MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC8cC1MYP95b7PY4Dj6DrPAZs4zZJEBriPZPSIu8Zd+j7lw1Jgwvpl1j4lyjoQUdIODHNH171tzJCssJL8wuF/yEppowAn7tMWz3fvxOrX4pxm2wOKBTXf3U7MIuZe2OiIbgn/08z0ouhkiJ9KxkdAunPhKOZGQGaO1UfHP7Lb98zYZRFoPNMZaBEUP4afktrOaO7n7OmpBjKX+sDCblolj8I3m+xD4a1dbnXzbGU+btxk2gIJ8NoXLmEHiGYwqTMMfrjb1xNLaek7D0zc24ALK9jRyLkCK8j72YytKqlS3M+Y5ezVGfuHp005foVYwgssamg3YEcokk6pKixbo7Vu1AgMBAAECggEBALPMRSyPkLQKBQx2RWczCAgZD76xwjpcMhBh6G/qTKaR9FrYPq6j7kDhyD/qA9SQp7s+kIec7yEZ7aedGGAgTEvpvDMeqWflwI4yzOYLIv4yUrKxsG23wTPYRQeaLkvNhCXDitvqCv0FNF4GqV6MxprzY2VPMLjR/gZQPe4q6x+6fsaePdbs2u1k4I5O02eE4IsiciK4qoLYpqTFV9SoRLzHexEmzJLCD3rc9pI5keMdv+iVzrxaVJPRKIKCBl4CpzsODjrF7l8EGQfWOTKcO0UmBOqMba9rg8AxOCsnIlNcEfGEksfhFL0MGqHKclbudzZkH4aKGnE4Gh1uYZeYOQECgYEA9RjzSwtGB3wmEnO5d8fQbcUBFx95rw62BRaXDBZwj78wS7h1i5gJrdRyYENhRXw3USdwmL3mDesgJ6qfXKVfngt8W4URvwkSkrg0/RuR5IV7eW1LAgSuGMKQEF1Ok9rXsgL7yuS3ax9D7Aq138C2q82phi7zGbFLa7DSM49UwRECgYEAxNIEw0X7Fc/eG5sHk7uHaJkq3Hq7dAg7gzprIgXYCbQo2adRHKoX/tuIpLGXgDA8jBTvGV8JYL7kXDpqHhhvB/jwwkR8FVp5ssseGZTObgw5mKT0LPhunVYUFQfKoGkVGH+z6iBTjg1iskUMIaeNkzQiG4FSCgcYL1DVExOqMGUCgYEA3taFdOhWDj4Y21Pt/3JjFTo1SJGsb7XfVfb489t/EaKRRXb7ICTmP+5U4yK/0I4kORuzqpuVC3iH7qiZZYFR0v68XPU6ckbMZSsnuiwT1AJshbURqk8Y/pf+pXJAG/uvekBuL0UNYk610WjXfQzYyJEfHUmYavagDNRh+NDLDRECgYB6pcEQCmDPk8v9edr75WUY+jFqWRTM1oB3YwT1m5ynV1wJXak+6oOvbhA1SPF2kRh51mW0crN+VRYqnsAX5vPxjOBCvrhv+gRSNR6ZpFAK5ZVSmKAMEfekFcrH3CYZVcIulQ2BPQm0QIUbP8mygx3G+Dq01x5PX2JjwcQ1chCgvQKBgFNG9++kP91RFH4LvV7eb2U72nhSOur53Dx6AwilEDTFmparRS7gipe1OvCKzynoYP816rCcjanezhW7hcS7r7VAJb/dVjOsuLJCSVgTc8qjrZMWs7aJx9pNzhZGJ6TMS9xru98dmHJX0zzrZg9QedEYPlxSbvgGQmzp977QqDWi"`;

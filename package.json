@@ -1,0 +1,28 @@
+{
+  "name": "fiona-client",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "cli": "node whispersync-client/src/cli.js",
+    "server": "node content-server/src/server.js"
+  },
+  "dependencies": {
+    "@cozy/cli-tree": "^0.0.1",
+    "binary-parser": "^1.6.2",
+    "fast-xml-parser": "^3.16.0",
+    "fastify": "^2.14.1",
+    "fastify-static": "^2.7.0",
+    "handlebars": "^4.7.6",
+    "handlebars-layouts": "^3.1.4",
+    "jest": "^26.0.1",
+    "node-forge": "^0.9.1",
+    "node-rsa": "^1.0.8",
+    "point-of-view": "^3.8.0",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5",
+    "xmldom": "^0.3.0",
+    "xpath": "^0.0.27"
+  }
+}
