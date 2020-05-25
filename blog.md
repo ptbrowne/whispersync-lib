@@ -1,5 +1,7 @@
 <!-- MarkdownTOC autolink=True -->
 
+- [Introduction](#introduction)
+- [Setup](#setup)
 - [Communication between Amazon and Kindle](#communication-between-amazon-and-kindle)
     - [Registration flow](#registration-flow)
 - [Get a trace](#get-a-trace)
@@ -15,6 +17,21 @@
     - [Anecdotes](#anecdotes)
 
 <!-- /MarkdownTOC -->
+
+## Introduction
+
+A long time ago, ....
+
+
+## Setup
+
+
+Raspberry Pi
+Mitmproxy
+Genymotion
+Kindle for Android
+
+
 
 ## Communication between Amazon and Kindle
 
