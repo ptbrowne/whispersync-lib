@@ -1,0 +1,1 @@
+../../fiona-client/sidecar.js

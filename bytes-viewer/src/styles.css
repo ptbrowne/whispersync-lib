@@ -1,0 +1,65 @@
+.App {
+  font-family: sans-serif;
+}
+
+.byte {
+  display: inline-flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  color: rgba(0, 0, 0, 0.35);
+  font-family: monospace;
+  width: 1rem;
+  height: 1rem;
+  border: 0.5px solid gray;
+  cursor: pointer;
+}
+
+.byte:hover {
+  border: 0.5px solid black;
+}
+
+.bytes {
+  max-width: 440px;
+}
+
+.fmtted {
+  font-family: monospace;
+  font-size: 0.75rem;
+}
+
+.pointers {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  border-radius: 0.5rem;
+  background: #eee;
+  margin: .5rem;
+  padding: .5rem;
+  display: inline-block;
+}
+
+.field-label {
+  font-family: monospace;
+}
+
+.bytes--error {
+  background: rgba(255, 0, 0, 0.25);
+}
+
+pre {
+  margin: 0;
+}
+
+#positionInspector {
+  font-family: monospace;
+  position: fixed;
+  background: white;
+  top: 0;
+  left: 0;
+  border-radius: 4px;
+  background: rgb(255, 255, 255);
+}
