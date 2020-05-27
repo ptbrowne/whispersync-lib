@@ -1,3 +1,4 @@
+import React from 'react'
 import padStart from 'lodash/padStart'
 
 const Byte = ({ byte, onMouseEnter }) => {

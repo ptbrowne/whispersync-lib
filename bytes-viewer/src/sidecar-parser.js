@@ -1,1 +1,1 @@
-../../fiona-client/sidecar.js
+../../whispersync-client/src/sidecar.js

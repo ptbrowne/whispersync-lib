@@ -5,7 +5,7 @@ import { parseSidecarBytes } from './sidecar-parser'
 import useStickyState from './useStickyState'
 import { Bytes, ParsedBytes } from './Bytes'
 
-const sidecarParser = {
+const amazonSidecarParser = {
   parse: parseSidecarBytes
 }
 
@@ -86,6 +86,16 @@ const Annotations = ({ parsed, bytes }) => {
   )
 }
 
+const parsers = {
+  'amazon-sidecar': amazonSidecarParser
+}
+
+const parserComponents = {
+  'amazon-sidecar': [
+    ['Annotations', Annotations]
+  ]
+}
+
 const useCurrent = initVal => useStickyState(initVal, 'current')
 
 const START_SIDECAR = 0
@@ -97,16 +107,25 @@ export default function App() {
     useCurrent
   )
 
+  const [parserName, setParserName] = useStickyState(null, 'parser')
+  const parser = parserName && parsers[parserName]
+
   const sidecar = sidecars[current]
   const bytes = Buffer.from(sidecar.data, 'base64')
-  const parsed = sidecarParser.parse(bytes)
+  const parsed = parser && parser.parse(bytes)
 
-  const {
-    bpar_ptr_index
-  } = parsed
+  const handleSelectParser = ev => {
+    setParserName(ev.target.value)
+  }
 
   return (
     <div className="App">
+      <select onChange={handleSelectParser}>
+        <option selected={!parserName} value={null}>-</option>
+        <option selected={parserName === 'amazon-sidecar'} value='amazon-sidecar'>
+          amazon-sidecar
+        </option>
+      </select>
       <div id='positionInspector'>
       </div>
       <div>
@@ -114,19 +133,20 @@ export default function App() {
         {current} ({sidecar.name})
         <button disabled={current === sidecars.length - 1} onClick={setNext}>next</button>
       </div>
-      <Bytes bytes={bytes} start={parsed.before_bpar} size={parsed.bpar_length} />
-      <div>
+      { parsed ? <div>
         <h3>Parsed</h3>
-        {/*<Annotations bytes={bytes} parsed={parsed} />*/}
-        <AutoFormatBytes
+        <ParsedBytes
           shouldRepr={fieldName => fieldName !== 'pointers'} 
           parsed={parsed}
           bytes={bytes} />
-      </div>
-      <div>
-        <h3>Annotations</h3>
-        <Annotations bytes={bytes} parsed={parsed} />
-      </div>
+      </div> : <Bytes bytes={bytes} start={0} end={bytes.length} /> }
+      { parsed && parserComponents[parserName] ? 
+          parserComponents[parserName].map(([name, Component]) => (
+            <div>
+              <h3>{ name }</h3>
+              <Component bytes={bytes} parsed={parsed} />
+            </div>
+          )) : null }
     </div>
   )
 }
