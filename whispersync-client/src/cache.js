@@ -5,6 +5,7 @@
 
 const fs = require('fs').promises
 const path = require('path')
+const keyBy = require('lodash/keyBy')
 
 const Device = require('./device')
 const Client = require('./client')
