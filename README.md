@@ -43,4 +43,5 @@ npm run server
 ```
 
 [whispersync-client]: ./whispersync-client
+[content-server]: ./content-server
 [blog post]: https://ptbrowne.github.io/posts/whispersync-reverse-engineering/
