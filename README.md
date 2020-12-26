@@ -45,3 +45,15 @@ npm run server
 [whispersync-client]: ./whispersync-client
 [content-server]: ./content-server
 [blog post]: https://ptbrowne.github.io/posts/whispersync-reverse-engineering/
+
+### Caveats
+
+#### Password with stars
+
+:warn: If your password contains stars, it is possible that login will not work, I have not investigated yet, but you can try to change password
+to see if it works. Please comment in #1 if it solves your problem.
+
+#### Data that does not come from Amazon
+
+If you put data manually on your Kindle, for example epubs that do not come from Amazon, or PDFs, annotations are not saved on Amazon and thus
+will not be retrieved through whispersync-lib. You can find your annotations in the "MyClippings.txt" file that is stored locally in your Kindle.
