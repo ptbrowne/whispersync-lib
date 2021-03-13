@@ -23,7 +23,7 @@
     "point-of-view": "^3.8.0",
     "request": "^2.88.2",
     "request-promise": "^4.2.5",
-    "xmldom": "^0.3.0",
+    "xmldom": "^0.5.0",
     "xpath": "^0.0.27"
   }
 }
