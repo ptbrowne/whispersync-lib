@@ -14,7 +14,7 @@
     "binary-parser": "^1.6.2",
     "fast-xml-parser": "^3.16.0",
     "fastify": "^2.14.1",
-    "fastify-static": "^2.7.0",
+    "fastify-static": "^4.2.4",
     "handlebars": "^4.7.6",
     "handlebars-layouts": "^3.1.4",
     "jest": "^26.0.1",
